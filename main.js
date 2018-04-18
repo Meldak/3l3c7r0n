@@ -19,7 +19,7 @@ function createWindow() {
 exports.openWindow = () => {
 	let newWin = new BrowserWindow ({width:400, height:200})
 		newWin.loadURL(url.format({
-		pathname: path.join(__dirname, 'enupal.html'),
+		pathname: path.join(__dirname, 'page2.html'),
 		protocol: 'file',
 		slashes: true
 	}))
